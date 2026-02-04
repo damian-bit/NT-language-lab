@@ -1,0 +1,16 @@
+services:
+  ntlanguagelab:
+    build: .
+    container_name: ntlanguagelab
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./data:/app/data
+    environment:
+      - LLM_BASE_URL=http://host.docker.internal:8080
+      - LLM_MODEL=Phi-3 Mini Instruct
+      - CHROMA_DB_PATH=/app/chroma_db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
