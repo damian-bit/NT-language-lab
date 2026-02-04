@@ -20,8 +20,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY app/ ./app/
 COPY scripts/ ./scripts/
 
-# Copiar datos y base de datos persistente (necesario para HF Spaces)
-COPY data/ ./data/
+# Copiar base de datos persistente (necesario para HF Spaces)
 COPY chroma_db/ ./chroma_db/
 
 # Hugging Face Spaces usa el puerto 7860; en local usamos 8501 por defecto
