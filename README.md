@@ -1,3 +1,13 @@
+---
+title: NT Language Lab
+emoji: 🎨
+colorFrom: purple
+colorTo: yellow
+sdk: docker
+pinned: false
+license: mit
+---
+
 # 📖 NT Language Lab
 
 Comparador de traducciones del Nuevo Testamento usando IA local.
