@@ -12,6 +12,12 @@ license: mit
 
 Comparador de traducciones del Nuevo Testamento usando IA local.
 
+<div align="center">
+  <a href="https://huggingface.co/spaces/damianedona/NT-language-lab">
+    <img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-xl-dark.svg" alt="Open in Hugging Face Spaces" width="300"/>
+  </a>
+</div>
+
 ## 🎯 Descripción
 
 Sistema de comparación lingüística entre el texto original en griego koiné y la traducción Reina-Valera 1960 del Nuevo Testamento. Utiliza RAG (Retrieval-Augmented Generation) estricto para recuperar versículos específicos y generar análisis lingüísticos usando un LLM local servido por **llama.cpp** (API HTTP tipo OpenAI), por ejemplo Phi-3 Mini Instruct en formato GGUF.
