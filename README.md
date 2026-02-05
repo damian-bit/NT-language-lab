@@ -12,6 +12,9 @@ license: mit
 
 Comparador de traducciones del Nuevo Testamento usando IA local.
 
+
+## 🚀 Demo
+
 <div align="center">
   <a href="https://huggingface.co/spaces/damianedona/NT-language-lab">
     <img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-xl-dark.svg" alt="Open in Hugging Face Spaces" width="300"/>
