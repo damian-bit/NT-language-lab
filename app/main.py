@@ -190,7 +190,8 @@ st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: gray;'>"
     "NT Language Lab - Comparación Lingüística del Nuevo Testamento<br>"
-    "llama.cpp (Phi-3 Mini) + ChromaDB + Sentence Transformers"
+    "Versión HF: ChromaDB + Sentence Transformers (Modo RAG)<br>"
+    "Versión Local Completa: llama.cpp (Phi-3 Mini) + ChromaDB + Sentence Transformers"
     "</div>",
     unsafe_allow_html=True
 )
